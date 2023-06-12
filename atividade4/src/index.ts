@@ -38,7 +38,7 @@ app.get('/login', (req: Request, res: Response) => {
 
 // Rota para receber os dados do formulário de login
 app.post("/login", login);
-
+  
 // Rota para logout - limpa dados do req.app.locals.user 
 app.get("/logout", logout);
 
